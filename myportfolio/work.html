@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Diagnostics Platform</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo {
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .logo img {
+            width: 100%;
+            height: auto;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #2c2c2c;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+        }
+        .box {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #00aaff;
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        .step {
+            margin: 20px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #00aaff;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #0088cc;
+        }
+        .link-to-home, .link-to-end {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Logo Section -->
+    <div class="logo">
+        <img src="sma logo.png" alt="InnoMed Shield Logo">
+    </div>
+
+    <!-- Title and Tagline -->
+    <h1>InnoMed Shield</h1>
+    <p>Your Health, Your Privacy, Our Priority</p>
+
+    <!-- Container for Content -->
+    <div class="container">
+        <!-- Index Page Box -->
+        <div class="box">
+            <h2>How It Works</h2>
+            <div class="step">
+                <h3>1. Secure Login</h3>
+                <p>Access the platform with your unique password for secure authentication.</p>
+            </div>
+            <div class="step">
+                <h3>2. Data Encryption</h3>
+                <p>Your sensitive medical data is encrypted for maximum privacy protection.</p>
+            </div>
+            <div class="step">
+                <h3>3. Multilingual Translation</h3>
+                <p>Choose your preferred language for comprehensive report understanding.</p>
+            </div>
+            <div class="step">
+                <h3>4. Health Diagnostics</h3>
+                <p>Our system performs a detailed analysis of your medical data.</p>
+            </div>
+            <div class="step">
+                <h3>5. Personalized Insights</h3>
+                <p>Receive tailored health recommendations based on your unique profile.</p>
+            </div>
+            <div class="step">
+                <h3>6. Secure Data Storage</h3>
+                <p>Your medical data is stored securely with continuous backups.</p>
+            </div>
+        </div>
+
+        <!-- Link to Home Page -->
+        <div class="link-to-home">
+            <a href="index.html" class="button">Go to Home Page</a>
+        </div>
+
+        <!-- Link to go to the end of the page -->
+        <div class="link-to-end">
+            <a href="#end" class="button">Go to End of Page</a>
+        </div>
+
+        <!-- Some more content to demonstrate scrolling -->
+        <div style="height: 600px;"></div>
+    </div>
+
+    <!-- End of Page Anchor -->
+    <div id="end" class="box">
+        <h2>End of Page</h2>
+        <p>You've reached the end of the page.</p>
+    </div>
+
+</body>
+</html>
